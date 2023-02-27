@@ -1,0 +1,11 @@
+:root {
+    --background: hsl(30, 38%, 92%);
+}
+
+body {
+    background-color: var(--background);
+}
+.grid-container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
