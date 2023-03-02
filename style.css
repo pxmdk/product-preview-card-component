@@ -65,6 +65,9 @@ body {
     margin-bottom: 1.75rem;
     padding-right: 0.5rem;
 }
+.price {
+    display: flex;
+}
 
 /* FOOTER AND ATTRIBUTION */
 
