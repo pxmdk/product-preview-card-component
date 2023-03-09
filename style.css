@@ -68,6 +68,9 @@ body {
 	margin-bottom: 1.75rem;
 	padding-right: 0.5rem;
 }
+.product-details .product-description span {
+	text-transform: uppercase;
+}
 .price {
 	display: flex;
 	align-items: center;
