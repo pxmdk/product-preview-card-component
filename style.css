@@ -78,6 +78,11 @@ body {
 	color: var(--Dark-cyan);
 	font-size: 30px;
   }
+  .price .old-price {
+	color: var(--Dark-grayish-blue);
+	font-family: "Montserrat";
+	text-decoration: line-through;
+  }
   .product-details .cart-button {
 	width: 100%;
 	display: flex;
@@ -85,6 +90,7 @@ body {
 	justify-content: center;
 	background-color: var(--Dark-cyan);
 	color: var(--White);
+	font-weight: 600;
 	gap: 1rem;
 	padding: 1rem 2rem;
 	border: 0;
@@ -92,13 +98,17 @@ body {
 	font-family: "Montserrat";
 	cursor: pointer;
   }
-  
-  .price .old-price {
-	color: var(--Dark-grayish-blue);
-	font-family: "Montserrat";
-	text-decoration: line-through;
+  .product-details .cart-button:hover {
+	background-color: var(--Very-dark-blue);
   }
-
+  .attribution {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 0.65rem;
+	color: var(--Very-dark-blue);
+}
+.attribution a {
+	color: var(--Very-dark-blue);
+}
 @media only screen and (max-width: 550px) {
 	.card-container {
 		flex-direction: column;
@@ -118,6 +128,11 @@ body {
 		padding-right: 0;
 	}
 	.attribution {
-		padding: 1rem;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 0.65rem;
+		color: var(--Very-dark-blue);
+	}
+	.attribution a {
+		color: var(--Very-dark-blue);
 	}
   }
