@@ -97,6 +97,7 @@ body {
 	border-radius: 10px;
 	font-family: "Montserrat";
 	cursor: pointer;
+	transition: 0.3s;
   }
   .product-details .cart-button:hover {
 	background-color: var(--Very-dark-blue);
